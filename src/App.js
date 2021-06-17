@@ -1,25 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./components/Home";
+import Log from "./components/Log";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import {Link as ScrollLink} from 'react-scroll'
+import Registration from "./components/Registration";
+import Loggin from "./components/Loggin";
+import Start from "./components/Start";
+import What from "./components/What";
+import About from "./components/About";
+import Organisation from "./components/Organisation";
+import Contact from "./components/Contact";
+
+export default function App() {
+    return (
+
+        <Router>
+            <Log/>
+                        <Switch>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+                <Route path="/loggin">
+                    <Loggin/>
+                </Route>
+                <Route path="/registration">
+                    <Registration/>
+                </Route>
+
+            </Switch>
+
+            <Start/>
+            <What/>
+            <About/>
+            <Organisation/>
+            <Contact/>
+
+        </Router>
+
+    );
 }
 
-export default App;
+

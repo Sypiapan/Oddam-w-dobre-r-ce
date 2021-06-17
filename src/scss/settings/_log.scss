@@ -1,0 +1,28 @@
+.login  {
+
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+   margin-right:50px;
+
+}
+.login_nav  {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+
+}
+
+.login_nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+
+}
+.login_nav a:hover {
+
+  color: gray;
+  border: 2px solid orange;
+  cursor: pointer;
+
+}
