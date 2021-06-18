@@ -1,0 +1,20 @@
+.page_second_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.page_second_buttons_item{
+  font-size: 20px;
+  padding: 20px;
+
+
+}
+
+.page_second_buttons_item:hover{
+  border: 2px solid grey;
+
+
+}
