@@ -10,16 +10,16 @@ export default function Nav() {
             <nav>
                 <ul className="nav_links">
                     <li>
-                        <Link to="start">Start</Link>
+                        <Link to="login_nav">Start</Link>
                     </li>
                     <li>
-                        <Link to="what">O co chodzi?</Link>
+                        <Link to="article-header">O co chodzi?</Link>
                     </li>
                     <li>
-                        <Link to="about">O nas</Link>
+                        <Link to="about_content">O nas</Link>
                     </li>
                     <li>
-                        <Link to="organisation">Fundacja i organizacje</Link>
+                        <Link to="page_second_buttons_item">Fundacja i organizacje</Link>
                     </li>
                     <li>
                         <Link to="contact">Kontakt</Link>

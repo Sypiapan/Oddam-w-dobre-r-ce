@@ -8,10 +8,10 @@ export default function Log() {
             <nav className="login">
                 <ul className="login_nav">
                     <li>
-                        <Link to="/loggin">Zaloguj</Link>
+                        <Link to="/logowanie">Zaloguj</Link>
                     </li>
                     <li>
-                        <Link to="/registration">Załóż konto</Link>
+                        <Link to="/rejestracja">Załóż konto</Link>
                     </li>
                 </ul>
             </nav>

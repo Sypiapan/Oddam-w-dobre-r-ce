@@ -1,18 +1,26 @@
-
 import HomeHeader from "./HomeHeader";
 import HomeThreeColumns from "./HomeThreeColumns";
 import HomeFourSteps from "./HomeFourSteps";
-import { Link, animateScroll as scroll } from "react-scroll";
+//import {Link, animateScroll as scroll} from "react-scroll";
+import About from "./About";
+import Organisation from "./Organisation";
+import Contact from "./Contact";
 
+
+import {Switch} from "react-router-dom";
+import React from "react";
+import {
+    Link
+} from "react-router-dom";
 
 
 export default function Home() {
     return (
         <>
             <div className="container flex">
-            <div className="head_picture"></div>
-            <div className="head_content">
-                <HomeHeader/>
+                <div className="head_picture"></div>
+                <div className="head_content">
+                    <HomeHeader/>
 
                     <div className="head_title">
                         <p>Zacznij pomagać!</p>
@@ -21,8 +29,14 @@ export default function Home() {
 
                     </div>
                     <div className="head_menu">
-                        <h3 >ODDAJ RZECZY</h3>
-                        <h3>ZORGANIZUJ ZBIÓRKĘ</h3>
+
+
+                        <div className="link">
+                            <Link to="/logowanie">ODDAJ RZECZY</Link>
+                        </div>
+                        <div className="link">
+                            <Link to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link>
+                        </div>
                     </div>
 
 
@@ -31,6 +45,10 @@ export default function Home() {
             </div>
             <HomeThreeColumns/>
             <HomeFourSteps/>
+            <About/>
+            <Organisation/>
+            <Contact/>
+
         </>
     );
 }

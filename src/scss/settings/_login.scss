@@ -1,0 +1,157 @@
+.login_title {
+
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.login_title_out {
+
+
+  font-size: 35px;
+  margin-top: 50px;
+  width: 400px;
+
+  text-align: center
+
+
+
+
+
+}
+
+.loginOut{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.login_main_2 {
+  font-size: 12px;
+  padding: 20px;
+  height: 180px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+
+}
+
+.login_main {
+  font-size: 12px;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  width: 400px;
+  padding: 11vh 7vh 5vh;
+  margin-top: 50px;
+
+}
+.login_main_registration {
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  width: 400px;
+  padding: 11vh 7vh 5vh;
+  margin-top: 81px;
+
+}
+
+input{
+
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  line-height: 1.9;
+  outline: transparent;
+
+}
+
+.login_main_inputs {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin:0 0 3vh;
+  &::before,
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+
+  }
+
+}
+
+.login_btn {
+position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 220px;
+  width: 750px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.login_btn_registration {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 280px;
+  width: 750px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.login_btn_left, .login_btn_right {
+  background-color: white;
+  border: none;
+
+
+
+
+  &:hover {
+
+    border: 2px solid grey;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+.login_btn_2 {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+
+
+}

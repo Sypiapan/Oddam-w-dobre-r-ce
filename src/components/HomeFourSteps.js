@@ -1,4 +1,6 @@
-
+import {
+    Link
+} from "react-router-dom";
 
 
 import Logo from "../assets/Icon-1.svg";
@@ -58,8 +60,12 @@ export default function HomeFourSteps() {
 
 
             </div>
-            <div className="head_menu">
-                <h3 >ODDAJ RZECZY</h3>
+            <div className="head_menu btn4steps">
+
+                <div className="link">
+                    <Link to="/logowanie">ODDAJ RZECZY</Link>
+                </div>
+
 
             </div>
         </main>

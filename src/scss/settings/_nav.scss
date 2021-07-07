@@ -14,11 +14,13 @@ nav{
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  width: 100%;
+  width: 750px;
+  margin-left: auto;
+
 }
 
 
-.nav_links a:hover {
+.nav_links  a:hover {
 
   color: gray;
   border: 2px solid orange;

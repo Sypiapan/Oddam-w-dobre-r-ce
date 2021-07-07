@@ -1,0 +1,27 @@
+{
+  "Fundacje": [
+    { "id": 1, "name": "Fundacja 1", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 2, "name": "Fundacja 2", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 3, "name": "Fundacja 3", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 4, "name": "Fundacja 4", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 5, "name": "Fundacja 5", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 6, "name": "Fundacja 6", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 7, "name": "Fundacja 7", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 8, "name": "Fundacja 8", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 9, "name": "Fundacja 9", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " }
+  ],
+  "Organizacje": [
+    { "id": 1, "name": "Organizacja 1", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 2, "name": "Organizacja 2", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 3, "name": "Organizacja 3", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 4, "name": "Organizacja 4", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 5, "name": "Organizacja 5", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 6, "name": "Organizacja 6", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem i,"}
+  ],
+  "Zbiorki": [
+
+    { "id": 1, "name": "Zbiórka 1", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 2, "name": "Zbiorka 2", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lorem ipsum dolor sit amet, " },
+    { "id": 3, "name": "Zbiorka 3", "target": "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "description": "Lore,"}
+  ]
+}
