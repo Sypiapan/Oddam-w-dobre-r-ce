@@ -2,7 +2,7 @@ import Pagination from "./Pagination";
 import React from "react";
 
 
-export default function OrganisationList({items, itemsPerPage, totalItems}) {
+export default function OrganisationList({items, itemsPerPage, totalItems, setCurrentPage}) {
 
     return (
 
@@ -11,9 +11,12 @@ export default function OrganisationList({items, itemsPerPage, totalItems}) {
             {items.map((item) => (
                 <>
 
-                    <div>
-                        <p key={item.id}>{item.name}</p>
-                        <span key={item.id}>{item.target}</span>
+                    <div className="organisationList">
+                        <div className="organisationList_item"></div>
+                            <p className="listTitle" key={item.id}>{item.name}</p>
+                            <span key={item.id}>{item.target}</span>
+
+
                         <span key={item.id}>{item.description}</span>
                     </div>
 
@@ -24,7 +27,7 @@ export default function OrganisationList({items, itemsPerPage, totalItems}) {
 
 
             }
-            <Pagination itemsPerPage={itemsPerPage} totalItems={totalItems}/>
+            <Pagination itemsPerPage={itemsPerPage} totalItems={totalItems} setCurrentPage={setCurrentPage}/>
 
         </>
     );

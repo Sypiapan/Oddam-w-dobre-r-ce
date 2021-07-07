@@ -9,7 +9,7 @@ export default function Organisation() {
     const url = "http://localhost:8000";
 
     useEffect(() => {
-        //fetch(`${url}/${selectedItems}`)
+
          fetch(`${url}/${selectedItems}`)
             .then(res =>{return res.json()})
             .then((data)=>{
@@ -27,7 +27,7 @@ export default function Organisation() {
 
     const handleClick = (selected) => {
 
-        fetch(`${url}/selected`)
+        fetch(`${url}/${selected}`)
             .then(res =>{return res.json()})
             .then((data)=>{
 
@@ -47,7 +47,7 @@ export default function Organisation() {
             </div>
 
 
-             <OrganisationList items={currentItems} totalItems={items.length} itemsPerPage={itemsPerPage} />
+             <OrganisationList items={currentItems} totalItems={items.length} itemsPerPage={itemsPerPage}  />
         </main>
     );
 }

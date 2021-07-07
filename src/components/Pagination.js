@@ -1,11 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
 
-export default function Pagination({totalItems, itemsPerPage,setCurrentPage}) {
+export default function Pagination({totalItems, itemsPerPage, setCurrentPage}) {
 
 
-console.log (totalItems);
-    console.log (itemsPerPage);
+
 
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(totalItems / itemsPerPage); i++) {

@@ -1,0 +1,18 @@
+.paginaton{
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+
+}
+
+.page-item{
+  padding: 10px;
+
+  &:hover {
+
+    border: 2px solid grey;
+    cursor: pointer;
+  }
+}
+
+
